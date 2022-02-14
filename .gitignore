@@ -17,6 +17,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Data Folders
+Hdiff Files/*
+New Game Files/*
+Original Game Files/*
+WAV/*
+Tools/New Decoding/*
+Tools/Original Decoding/*
+
 # =========================
 # Operating System Files
 # =========================
