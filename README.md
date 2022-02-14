@@ -6,5 +6,8 @@ Based on Wwise Unpacker https://github.com/Vextil/Wwise-Unpacker
 Here's the archive structure:
 
 * Unpacker
-  * Game Files (PCK files)
+  * Hdiff Files (HDIFF files) (Diff files from update zip)
+  * New Game Files (PCK files) (Leave this empty - it will contain the patched files after running)
+  * Original Game Files (PCK files) (Old game files from current release)
   * Tools (Tools used for the unpacking process)
+  * WAV (WAV file output)
