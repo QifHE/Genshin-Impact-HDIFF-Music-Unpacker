@@ -59,7 +59,7 @@ def filter_diff_files(original_dir, new_dir):
     # Calculate list of new files
     original_file_list = []
     for (dirpath, dirnames, filenames) in os.walk(original_dir):
-        new_file_list.extend(filenames)
+        original_file_list.extend(filenames)
         break
     original_file_list = list(filter(lambda name: Path(name).suffix == ".wem", original_file_list))
     new_file_list = []
